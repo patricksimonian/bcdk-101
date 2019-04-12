@@ -1,0 +1,30 @@
+{
+  "generator-bcdk": {
+    "promptValues": {
+      "modules": {
+        "jenkins": {
+          "path": ".jenkins",
+          "namespace": "ocp101-tools",
+          "name": "jenkins-ps",
+          "version": "1.0.0",
+          "environments": {
+            "build": {
+              "namespace": "ocp101-tools"
+            },
+            "dev": {
+              "namespace": "ocp101-tools"
+            },
+            "prod": {
+              "namespace": "ocp101-tools"
+            }
+          },
+          "jenkinsJobName": "_jenkins",
+          "github_owner": "bcgov",
+          "github_repo": "devhub-app-web",
+          "jenkinsFilePath": "Jenkinsfile",
+          "uuid": "2c758865-fe29-41ed-b93f-03e719168ffd"
+        }
+      }
+    }
+  }
+}
